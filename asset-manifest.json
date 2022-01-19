@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/oramaWeb/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/oramaWeb/static/js/main.f0838cb2.chunk.js",
+    "main.js.map": "/oramaWeb/static/js/main.f0838cb2.chunk.js.map",
+    "runtime-main.js": "/oramaWeb/static/js/runtime-main.e478d946.js",
+    "runtime-main.js.map": "/oramaWeb/static/js/runtime-main.e478d946.js.map",
+    "static/css/2.fe5b9679.chunk.css": "/oramaWeb/static/css/2.fe5b9679.chunk.css",
+    "static/js/2.1a990eb7.chunk.js": "/oramaWeb/static/js/2.1a990eb7.chunk.js",
+    "static/js/2.1a990eb7.chunk.js.map": "/oramaWeb/static/js/2.1a990eb7.chunk.js.map",
+    "static/js/3.e8f65ea2.chunk.js": "/oramaWeb/static/js/3.e8f65ea2.chunk.js",
+    "static/js/3.e8f65ea2.chunk.js.map": "/oramaWeb/static/js/3.e8f65ea2.chunk.js.map",
+    "index.html": "/oramaWeb/index.html",
+    "static/css/2.fe5b9679.chunk.css.map": "/oramaWeb/static/css/2.fe5b9679.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/oramaWeb/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.1a990eb7.chunk.js.LICENSE.txt": "/oramaWeb/static/js/2.1a990eb7.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/oramaWeb/static/media/revicons.e8746a62.woff",
+    "static/media/slick-theme.css": "/oramaWeb/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e478d946.js",
+    "static/css/2.fe5b9679.chunk.css",
+    "static/js/2.1a990eb7.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.f0838cb2.chunk.js"
+  ]
+}
