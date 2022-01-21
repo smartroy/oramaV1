@@ -1,5 +1,5 @@
 body {
-    font-family: Chivo, sans-serif;
+    font-family: Roboto, sans-serif;
     white-space: pre-line;  
 vertical-align: bottom;
   }
@@ -10,7 +10,7 @@ vertical-align: bottom;
     background-image: url("../imgs/bimage.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    font-family: Chivo, sans-serif;
+    font-family: Roboto, sans-serif;
     position: relative;  
   }
   
@@ -77,7 +77,7 @@ vertical-align: bottom;
 
 
 .oramaNav li{
-    font-family: Chivo, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: larger;
     font-weight: bold;
     padding-right: 3em;
@@ -161,7 +161,7 @@ vertical-align: bottom;
     color: #424949;
     width: 85%;
     margin: auto;
-    font-family: Chivo, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
 .oramaNav .card {
@@ -577,7 +577,7 @@ vertical-align: bottom;
   }
    .oramaEventTitle {
        color: #2a2839;
-       font-family: Chivo, sans-serif;
+       font-family: Roboto, sans-serif;
        font-weight: 500;
   }
    @media screen and (min-width: 601px) {
@@ -593,7 +593,7 @@ vertical-align: bottom;
   }
    .oramaTimeline-box p {
        color: #4f4f4f;
-       font-family: Chivo,sans-serif;
+       font-family: Roboto,sans-serif;
        line-height: 1.5;
        margin-top: 0.4rem;
   }
@@ -607,21 +607,22 @@ vertical-align: bottom;
 .timeline-box{
     padding: 100px;
     background-color: white;
-    font-family: Chivo;
+    font-family: Roboto;
 }
 
   .uk-timeline .uk-timeline-item .uk-card{
       max-height: 300px;
       border-radius: 15px;
-      background-color: rgb(219, 213, 255);
-      font-family: Chivo;
+      background: linear-gradient(123.19deg, rgba(71, 77, 131, 0.3) 1.99%, rgba(46, 52, 102, 0.3) 100%);
+      font-family: Roboto;
+      backdrop-filter: blur(15px);
   }
 
   .uk-timeline .uk-timeline-item-last .uk-card{
     max-height: 300px;
     border-radius: 15px;
-    background-color: rgb(217, 213, 255);
-    font-family: Chivo;
+    background-color: rgba(217, 213, 255,0.5);
+    font-family: Roboto;
 }
   
   .uk-timeline .uk-timeline-item  {
@@ -631,7 +632,7 @@ vertical-align: bottom;
   
   .uk-timeline .uk-timeline-item::before {
     content: '';
-    display: block;
+    display: inline-block;
     position: absolute;
     left: 10%;
     top: 0;
@@ -824,7 +825,7 @@ vertical-align: bottom;
     transform: translate(-50%, -50%);
     margin: auto;
     width: 80%;
-    font-family: Chivo, sans-serif;
+    font-family: Roboto, sans-serif;
     
     
     
@@ -837,4 +838,75 @@ vertical-align: bottom;
 .textOverPic .content h4{
     color:gray;
     font-size: 20px;
+}
+
+
+
+.slideUpCardHolder .ecoIntro{
+    display: inline-block;
+    margin:auto;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    line-height: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.slideUpCardHolder:hover .ecoIntro{
+    height:0
+    
+}
+
+.slideUpCardHolder{
+    position: relative;
+}
+
+
+
+.slideUpCardHolder .cardOver{
+    position: absolute;
+    bottom: 0;
+    left: 6%;
+    right: 0;
+    overflow: hidden;
+    height:0;
+    transition: .8s ease;
+    opacity: 1;
+}
+
+.slideUpCardHolder:hover .cardOver{
+    
+    height:96%;
+}
+
+
+
+.orama-timeline-box .orama-timeline-content-box .uk-card{
+    height: 90%;
+    width: 100%;
+    border-radius: 5px;
+    background: linear-gradient(123.19deg, rgba(88, 98, 196, 0.5) 1.99%, rgba(46, 52, 102, 0.5) 100%);
+    font-family: Roboto;
+    
+    opacity: 100%;
+}
+
+.orama-timeline-box .orama-timeline-content-box .orama-timeline-grid-item::before{
+    content: '';
+    display: block;
+    position: relative;
+    left: 54%;
+    top: 20%;
+    margin: 0 0 0 -1px;
+    width: 8%;
+    height: 10px;
+    color: #000;
+    background: rgba(83, 5, 5, 0.2);
+}
+
+.orama-timeline-box .orama-timeline-content-box .orama-timeline-title{
+    padding-bottom: 50px;
+    text-align: left;
 }
