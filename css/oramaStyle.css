@@ -910,3 +910,19 @@ vertical-align: bottom;
     padding-bottom: 50px;
     text-align: left;
 }
+
+.drop-preview-upload-box{
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding:50px;
+    padding-bottom: 200px;
+}
+
+.drop-preview-upload-box .container{
+    width: 85%;
+    justify-content: center;
+    margin: auto;
+    max-height: 800px;
+    text-align: center;
+}
