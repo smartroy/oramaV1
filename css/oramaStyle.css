@@ -926,3 +926,15 @@ vertical-align: bottom;
     max-height: 800px;
     text-align: center;
 }
+.drop-preview-upload-box .container .dropzone{
+    border: 2px solid green;
+    margin:auto;
+    justify-content: center;
+    height: 400px;
+}
+.drop-preview-upload-box .container .dropzone .title{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    font-size: large;
+}
