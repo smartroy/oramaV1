@@ -915,8 +915,8 @@ vertical-align: bottom;
     justify-content: center;
     position: relative;
     width: 100%;
-    padding:50px;
-    padding-bottom: 200px;
+    padding:200px;
+    
 }
 
 .drop-preview-upload-box .container{
