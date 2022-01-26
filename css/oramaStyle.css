@@ -938,3 +938,16 @@ vertical-align: bottom;
     top: 50%;
     font-size: large;
 }
+.mvp-modal-box{
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding:200px;
+}
+.mvp-modal-box .container{
+    width: 85%;
+    justify-content: center;
+    margin: auto;
+    
+    text-align: center;
+}
