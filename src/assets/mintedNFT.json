@@ -1,0 +1,11 @@
+{
+    "nfts": [
+        {
+            "id": 1,
+            "style": "vanGoh",
+            "hash": "123456",
+            "addr": "sdjafoiwqern",
+            "picSrc": "/oramaV1/imgs/monkey1.png"
+        }
+    ]
+}

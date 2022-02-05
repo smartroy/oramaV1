@@ -8,10 +8,17 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { HashRouter as Router } from 'react-router-dom'
+import GoToPageTop from './components/GoToPageTop'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <GoToPageTop />
+      <App />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
-
+import { Outlet, Link } from "react-router-dom"
 const NavBar = (props) => {
   const navItems = props.navItems;
   const navContents = navItems.map((item) =>
     <li className="nav-item px-4" key={item.name}>
-      <a className="nav-link" href={item.link}>{item.name}</a>
+      {/* <a className="nav-link" href={item.link}>{item.name}</a> */}
+      <Link to={item.link} className="nav-link">{item.name}</Link>
     </li>
   );
   const [withColor, setColor] = useState('transparent');
@@ -91,13 +92,11 @@ const NavBar = (props) => {
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <a href="#" class="navbar-brand"><img src="/oramaWeb/imgs/oramadick.png" width="40" height="40" style={{ right: "50%" }} /></a>
+      <a href="#" class="navbar-brand"><img src="/oramaV1/imgs/oramadick.png" width="40" height="40" style={{ right: "50%" }} /></a>
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ml-auto nav-fill">
 
-          <li class="nav-item px-4">
-            <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
-          </li>
+
           {navContents}
 
           <li class="nav-item px-4 dropdown">
@@ -112,12 +111,12 @@ const NavBar = (props) => {
                       <div class="panel-body">News</div>
                     </div>
                   </a> */}
-                  <a class="dropdown-item" href="#oramaNews">
+                  <a class="dropdown-item" href="/oramaV1#oramaNews">
                     <div class="card text-white " >
                       <div class="card-header">News</div>
                     </div>
                   </a>
-                  <a class="dropdown-item" href="#oramaPartner">
+                  <a class="dropdown-item" href="/oramaV1#oramaPartner">
                     <div class="card text-white " >
                       <div class="card-header">Partner</div>
                     </div>
@@ -129,12 +128,12 @@ const NavBar = (props) => {
                   <a class="dropdown-item" href="#">Project rescue</a>
                   <a class="dropdown-item" href="#">Source code recovery</a>
                   <a class="dropdown-item" href="#">Application support &amp; maintenance</a> */}
-                  <a class="dropdown-item" href="#oramaTech">
+                  <a class="dropdown-item" href="/oramaV1#oramaTech">
                     <div class="card text-white " >
                       <div class="card-header">Tech</div>
                     </div>
                   </a>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item" href="/oramaV1#">
                     <div class="card text-white " >
                       <div class="card-header">Join Us</div>
                     </div>
