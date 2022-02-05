@@ -873,7 +873,12 @@ vertical-align: bottom;
     overflow: hidden;
     height:0;
     transition: .8s ease;
-    opacity: 1;
+    opacity: 0.99;
+    background: linear-gradient(123.19deg, rgba(27, 29, 39, 0.5) 1.99%, rgba(69, 70, 73, 0.5) 100%);
+    backdrop-filter: blur(10px)
+}
+.slideUpCardHolder .cardOver .cardOver-content{
+    color:rgba(210, 215, 241, 0.87)
 }
 
 .slideUpCardHolder:hover .cardOver{
@@ -890,7 +895,8 @@ vertical-align: bottom;
     background: linear-gradient(123.19deg, rgba(88, 98, 196, 0.5) 1.99%, rgba(46, 52, 102, 0.5) 100%);
     font-family: Roboto;
     
-    opacity: 100%;
+    opacity: 0.99;
+    backdrop-filter: blur(10px)
 }
 
 .orama-timeline-box .orama-timeline-content-box .orama-timeline-grid-item::before{
