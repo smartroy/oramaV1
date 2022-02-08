@@ -892,7 +892,15 @@ vertical-align: bottom;
     height:96%;
 }
 
-
+.eco-card-text-box{
+  
+  height: 150px; /* maximum height of the box, feel free to change this! */
+  
+  overflow-y: scroll;
+}
+.eco-card-text-box::-webkit-scrollbar{
+  display: none;
+}
 
 .orama-timeline-box .orama-timeline-content-box .uk-card{
     height: 90%;
