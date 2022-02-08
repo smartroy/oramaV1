@@ -3,20 +3,26 @@ body {
     white-space: pre-line;  
 vertical-align: bottom;
   }
+.orama-design-top{
+    background-image: linear-gradient(to right bottom, #8860d0, #8c76d8, #928add, #9d9de1, #aab0e3, #aab2e4, #a9b4e5, #a9b6e6, #96a8e7, #839be8, #6e8de9, #5680e9);
+}
 
 .top-box {
     width: 100%;
     height: 500px;
-    background-image: url("../imgs/bimage.jpg");
+    /* background-image: url("../imgs/bimage.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    /* background-image: linear-gradient(to right top, #8860d0, #8c76d8, #928add, #9d9de1, #aab0e3, #aab2e4, #a9b4e5, #a9b6e6, #96a8e7, #839be8, #6e8de9, #5680e9); */
     font-family: Roboto, sans-serif;
     position: relative;  
   }
+ #myNavBar{
+    background-image: linear-gradient(to right top, #8860d0, #8c76d8, #928add, #9d9de1, #aab0e3, #aab2e4, #a9b4e5, #a9b6e6, #96a8e7, #839be8, #6e8de9, #5680e9);
+ } 
   
   
-  
-  .mainTitle {
+.mainTitle {
     justify-content: center;
     text-align: center;
     position: absolute;
@@ -131,7 +137,7 @@ vertical-align: bottom;
 .oramaNav .sub-nav-box {
     width: 100%;
     height: 100%;
-    background: #639b9b;
+    background: #5680e9;
     border-radius: 3px;
     display: flex;
     flex: 0 1 auto;
@@ -157,12 +163,12 @@ vertical-align: bottom;
     margin-left: 4px;
 }
   
-  .oramaInfoPic {
+.oramaInfoPic {
     color: #424949;
     width: 85%;
     margin: auto;
     font-family: Roboto, sans-serif;
-  }
+}
 
 .oramaNav .card {
     margin:5px;
