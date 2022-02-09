@@ -177,6 +177,10 @@ vertical-align: bottom;
     background-color: #0d559c;
     text-align: center;
 }
+.orama-sub-nav-blue{
+  background-image: linear-gradient(to bottom, #c1c8e4, #a9b6e6, #90a4e8);
+  /* background-color: #091c6b; */
+}
   
   
   
