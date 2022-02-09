@@ -333,11 +333,7 @@ vertical-align: bottom;
   }
   .cardInfo-box{
     background: #f1eded;
-    
-    
-    
-    
-  }
+}
 .cardInfo-content-box{
     width: 85%;
     position: relative;
@@ -377,6 +373,7 @@ vertical-align: bottom;
     padding-bottom: 50px;
     text-align: left;
 }
+
 .OramaNews-box{
     justify-content: center;
     position: relative;
