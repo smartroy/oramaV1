@@ -902,6 +902,14 @@ vertical-align: bottom;
   display: none;
 }
 
+.orama-modal-art{
+  background: linear-gradient(123.19deg, rgba(27, 29, 39, 0.5) 1.99%, rgba(69, 70, 73, 0.5) 100%);
+  backdrop-filter: blur(10px)
+}
+.orama-modal-art-card{
+  margin:auto;
+  padding: 20px
+}
 .orama-timeline-box .orama-timeline-content-box .uk-card{
     height: 90%;
     width: 100%;
